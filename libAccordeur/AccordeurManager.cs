@@ -49,6 +49,7 @@ namespace libAccordeur
             MixerLine mx = sourceStream.GetMixerLine();
             IsInProgress = true;
             //waveOut.Play();
+
         }
         void waveIn_DataAvailable(object sender, WaveInEventArgs e)
         {
